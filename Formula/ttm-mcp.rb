@@ -1,25 +1,25 @@
 class TtmMcp < Formula
   desc "ttm MCP server over stdio: workspace, Notee and Factory tools for Claude, Cursor, Codex and other MCP clients"
   homepage "https://toantranmei.com/help/ttm"
-  version "0.1.5"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-mcp-aarch64-apple-darwin.tar.xz"
-      sha256 "3a163dba61e7f8a48630fcab17acb09d0d535942d957a66464fdc38182f39eb2"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-mcp-aarch64-apple-darwin.tar.xz"
+      sha256 "910be06907cc76d0d5640ea6a9f8e98a1bbbd5135f780edee984397a79657946"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-mcp-x86_64-apple-darwin.tar.xz"
-      sha256 "7388ffbe7e3847e481e88ce82f46ad2b3063adb7cb5302bce833d4a2e2e6b607"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-mcp-x86_64-apple-darwin.tar.xz"
+      sha256 "0a1e3ec1ec39e402b6391ea82d482ed27eb324a591c0e9d55363948365087522"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-mcp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "37e1666eb5dbca72a94a171b019043cd9cc042e365f1b765a2ee8580157a3bf4"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-mcp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "901f5e476ba68f78fda408cc936b4116bc85ec85c867648d132ae2de73e64653"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-mcp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6075981df5c245a108c1049264bf0fdfffe4ef6e178ebd951a6ac1c6dbb09fe7"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-mcp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "92e337fb13c2c1494df92b7cdefce22e193df28abf360dfe97dde3c4745714f6"
     end
   end
   license "MIT"
