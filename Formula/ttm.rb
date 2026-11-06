@@ -1,25 +1,25 @@
 class Ttm < Formula
   desc "ttm: command line for toantranmei.com (sign in, workspaces, Notee, Factory sync and local agent runner)"
   homepage "https://toantranmei.com/help/ttm"
-  version "0.1.5"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "685c15479159135fe441ca5d00e43f93a14c74534d4a17450ac188860e664e8b"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "d9c7c90a5b84fa5020f844f44eeddf68a6d793fa9bbdf53df5fc14d2f5070033"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "cb3702c17871da4c743fb6da05836b8c587241a70f67c35809f1ff2f84525824"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "31988ebf9f168027a52e5d70caf01658c2e38afe6e39e54d6c2eb5c3c5dca007"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "90d5ddf370401e423720958390b51d08da034c25e41a86db96e83e34a500a79c"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6068621e488f3d2aa76bad08cb131f3d68d86f0a0c189231f1973d2d0c4ed198"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/toantranmei/ttm/releases/download/v0.1.5/ttm-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "757266bbd5118f7d7f07d33eae354966a753cdd3461ae5d114e13c1240c8ceb6"
+      url "https://github.com/toantranmei/ttm/releases/download/v0.2.0/ttm-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9a664dba1b22f057ca7d4e191617e751d9e5dc1f7b0aa519148d6f53301b21a7"
     end
   end
   license "MIT"
